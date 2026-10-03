@@ -9,14 +9,14 @@
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
-			"userName": "caresync-mt",
+			"userName": "sqlsynct",
 			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
 					"referenceName": "LS_AzureKeyVault",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "db-azure-pswd"
+				"secretName": "metadata-db-paswd"
 			}
 		}
 	}

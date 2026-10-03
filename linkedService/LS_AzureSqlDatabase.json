@@ -9,7 +9,7 @@
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
-			"userName": "admin",
+			"userName": "sql-db-caresync",
 			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
